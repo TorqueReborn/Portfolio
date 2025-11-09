@@ -1,9 +1,9 @@
-import me from './assets/me.jpg';
+import Banner from './Banner/Banner';
 
 const App = () => {
   return (
     <div>
-      <img width={200} src={me} alt="Photo of Abhinand" />
+      <Banner/>
     </div>
   )
 }
